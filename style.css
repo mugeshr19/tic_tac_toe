@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #141313;
+}
+.ones{
+    display: flex;
+}
+.x_scors{
+    margin-top: -134px;
+    height: 50px;
+    width: 123px;
+    color: #c0c0c0;
+    border: 2px solid #c0c0c0;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.y_scors{
+    margin-top: -134px;
+    height: 50px;
+    width: 123px;
+    color: #c0c0c0;
+    border: 2px solid #c0c0c0;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scores{
+    display: flex;
+
+}
+.score{
+    margin-top: -80px;
+    height: 50px;
+    width: 123px;
+    color: #c0c0c0;
+    border: 2px solid #c0c0c0;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxs{
+    height: 250px;
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr) ;
+    border: 2px solid #c0c0c0;
+}
+.box_s{
+    color: #c0c0c0;
+    border: 2px solid #c0c0c0;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_s:hover{
+    background: #654b4b;
+}
+.playagain{
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+    border: transparent;
+}
+.reset{
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+    border: transparent;
+}
+.playagain:active{
+    transition: 0.5s;
+    color: #c0c0c0;
+    background: rgb(112, 52, 52);
+}
+.reset:active{
+    transition: 0.5s;
+    color: #c0c0c0;
+    background: rgb(112, 52, 52);
+}
+.light{
+    margin-top: -300px;
+    margin-left: -600px;
+}
+.light:active{
+    transition: 0.5s;
+    color: #c0c0c0;
+    background: rgb(112, 52, 52);
+}
+.dark{
+    background: white;
+    color: #141313;
+}
